@@ -198,7 +198,8 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-    transition: all .3s; }
+    transition: all .3s;
+     }
     .likes__field:hover {
       background-color: #F2EFEE; }
   .likes__panel:hover,
@@ -443,7 +444,7 @@ body {
   .shopping__list {
     list-style: none;
     max-height: 77rem;
-    overflow: scroll; }
+    /*overflow: scroll;*/ }
   .shopping__item {
     display: flex;
     align-items: flex-start;
